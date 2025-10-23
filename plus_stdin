@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2025 Eiki Nakayama <qwertyuiop1103566@gmail.com>
+
+import sys
+・・・
+
 import sys
    
 ans = 0
