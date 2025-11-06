@@ -1,5 +1,19 @@
-# robosys2025
-システム工学の課題用リポジトリ
+# plusコマンド
+![test](https://github.com/EikiNakayama/robosys2025/workflows/test.yml/badge.svg)
+
+標準入力から読み込んだ数字を足す。
+
+- 使い方例
+$git clone git@github.com:Nakayama-Eiki/robosys2025.git
+$seq 5 | ./plus
+15
+
+## 必要なソフトウェア
+- Python
+  - テスト済みバージョン: 3.7〜3.10
+
+## テスト環境
+- Ubuntu 24.04 LTS
 
 このソフトウェアパッケージは，GPL3.0にコピーの下，再頒布および使用が許可されます．
 - このパッケージは，Ryuichi Uedaのスライド由来のコード（© 2025 Ryuichi Ueda）を利用しています．
