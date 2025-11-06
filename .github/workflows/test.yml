@@ -1,9 +1,10 @@
-  name: test
-  on: push
-  jobs:
-    test:
-      run-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v3
-      - name: ALL test
-        run: bash -xv ./test.bash
+ml
+name: test
+on: push
+jobs:
+  test:
+    run-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: ALL test
+      run: bash -xv ./test.bash
