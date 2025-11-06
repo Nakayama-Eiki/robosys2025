@@ -1,4 +1,3 @@
-ml
 name: test
 on: push
 jobs:
